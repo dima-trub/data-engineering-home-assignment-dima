@@ -54,9 +54,18 @@ You are a Data Engineer in a financial institute. Your task is to calculate and 
 
 -   At Vi, we manage and provision cloud infrastructure through definition files ([IaC](https://en.wikipedia.org/wiki/Infrastructure_as_code)). Please use IaC (such as CloudFormation) to deploy the code you created to perform the below tasks.
 -   Infrastructure tasks:
-    -   Create a glue job
-    -   Create a Glue Catalog Database
-    -   Create a Glue Catalog Table for each result file
+    -   Create a glue job : data-engineering-assignment-dimat-glue-job
+    -   Create a Glue Catalog Database : data-engineering-dimat_db
+    -   Create a Glue Catalog Table for each result file:
+      
+        avg_daily_return
+               
+        stock_highest_worth
+        
+        stock_volatility
+                
+        top_3_30_day_return
+        
     -   Create crawler/s
 -   **Expected result: Questions (objectives) results should be queryable from Athena**
 -   If you encounter issues with reading/writing from/to S3 buckets, it is recommended to add your name as a prefix to the bucket’s name. For example name the bucket: “data-engineer-assignment-my-name”
